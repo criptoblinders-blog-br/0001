@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Depoimentos - CriptoBlinders</title>
+    <meta name="description" content="Veja o que nossos alunos têm a dizer sobre o curso CriptoBlinders.">
+    <meta name="keywords" content="depoimentos, CriptoBlinders, curso de criptomoedas">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        .testimonial-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        .testimonial-card {
+            background: #f9f9f9;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            width: calc(50% - 20px); /* Dois cards lado a lado */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .video-card {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .rounded-image {
+            border-radius: 50%;
+            width: 80px; /* Tamanho da imagem */
+            height: 80px; /* Tamanho da imagem */
+            object-fit: cover;
+        }
+        @media (max-width: 768px) {
+            .testimonial-card {
+                width: 100%; /* Empilhar em mobile */
+            }
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <a href="index.html" class="title">Depoimentos</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="curso-criptoblinders.html">O Curso</a></li>
+                <li><a href="depoimentos.html" class="active">Depoimentos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+        <div class="inner">
+            <h1>Depoimentos de Alunos</h1>
+
+            <!-- Container de Cards de Depoimentos -->
+            <div class="testimonial-container">
+                <div class="testimonial-card">
+                    <img src="images/aluno1.jpg" alt="Nome do Aluno" class="rounded-image">
+                    <h2>Nome do Aluno</h2>
+                    <p>"Depoimento do aluno aqui. O curso foi incrível e aprendi muito sobre criptomoedas!"</p>
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <img src="images/aluno2.jpg" alt="Nome do Aluno" class="rounded-image">
+                    <h2>Nome do Aluno</h2>
+                    <p>"Recomendo a todos! As aulas são claras e bem explicadas."</p>
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card de Vídeo -->
+            <div class="video-card">
+                <h2>Veja o que nossos alunos dizem</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ID_DO_VIDEO" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper alt">
+        <div class="inner">
+            <ul class="menu">
+                <li>&copy; Blog CriptoBlinders. Todos os direitos reservados.</li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
