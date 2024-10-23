@@ -69,6 +69,22 @@ blockquote, q {
 
 
 
+/* Aumenta o contraste das letras do menu */
+#sidebar nav ul li a {
+    color: #FFFFFF; /* Cor do texto (branco) */
+    background-color: #333333; /* Cor do fundo (cinza escuro) */
+    padding: 10px 15px; /* Adiciona um pouco de preenchimento */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+/* Alterar a cor do texto ao passar o mouse */
+#sidebar nav ul li a:hover {
+    color: #FFD700; /* Cor dourada ao passar o mouse */
+    background-color: #444444; /* Fundo um pouco mais claro ao passar o mouse */
+}
+
+
+
 
 
 
