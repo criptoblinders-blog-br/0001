@@ -47,20 +47,25 @@ blockquote, q {
 
 
 
+
 .wrapper.style2.spotlights .content .inner h2,
 .wrapper.style2.spotlights .content .inner p {
-    color: #ffffff; /* Cor branca */
+    color: #ffffff !important;
 }
 
-.wrapper.style2.spotlights .content .button {
-    background-color: #ffffff; /* Fundo branco */
-    color: #000000; /* Texto preto para contraste no botão */
+
+.wrapper.style2.spotlights .content .actions .button {
+    background-color: #ffffff; 
+    color: #000000; 
+    border: 1px solid #000000; 
 }
 
-.wrapper.style2.spotlights .content .button:hover {
-    background-color: #cccccc; /* Um leve contraste ao passar o mouse */
-    color: #000000;
+/* Hover nos botões */
+.wrapper.style2.spotlights .content .actions .button:hover {
+    background-color: #cccccc; 
+    color: #000000; 
 }
+
 
 
 
