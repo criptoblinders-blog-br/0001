@@ -48,23 +48,25 @@ blockquote, q {
 
 
 
+/* Altera o texto para branco nos blocos específicos */
 .wrapper.style2.spotlights .content .inner h2,
 .wrapper.style2.spotlights .content .inner p {
-    color: #ffffff !important;
+    color: #ffffff !important; /* Força o branco para títulos e parágrafos */
 }
 
-
+/* Ajuste de cores dos botões */
 .wrapper.style2.spotlights .content .actions .button {
-    background-color: #ffffff; 
-    color: #000000; 
-    border: 1px solid #000000; 
+    background-color: #ffffff; /* Fundo do botão em branco */
+    color: #000000; /* Texto preto no botão para contraste */
+    border: 1px solid #000000; /* Borda preta para melhor visibilidade */
 }
 
 /* Hover nos botões */
 .wrapper.style2.spotlights .content .actions .button:hover {
-    background-color: #cccccc; 
-    color: #000000; 
+    background-color: #cccccc; /* Cor de fundo cinza claro no hover */
+    color: #000000; /* Texto preto no hover */
 }
+
 
 
 
