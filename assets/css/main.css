@@ -64,6 +64,19 @@ blockquote, q {
 
 
 
+.wrapper.style1-alt .inner .menu li {
+    color: #ffffff; /* Cor branca para os textos do rodapé */
+}
+
+.wrapper.style1-alt .inner .menu li a {
+    color: #ffffff; /* Cor branca para os links do rodapé */
+}
+
+.wrapper.style1-alt .inner .menu li a:hover {
+    color: #cccccc; /* Leve mudança de cor ao passar o mouse sobre o link */
+}
+
+
 
 table {
 	border-collapse: collapse;
