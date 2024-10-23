@@ -45,6 +45,26 @@ blockquote, q {
 		content: none;
 	}
 
+
+
+.wrapper.style2.spotlights .content .inner h2,
+.wrapper.style2.spotlights .content .inner p {
+    color: #ffffff; /* Cor branca */
+}
+
+.wrapper.style2.spotlights .content .button {
+    background-color: #ffffff; /* Fundo branco */
+    color: #000000; /* Texto preto para contraste no botão */
+}
+
+.wrapper.style2.spotlights .content .button:hover {
+    background-color: #cccccc; /* Um leve contraste ao passar o mouse */
+    color: #000000;
+}
+
+
+
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
