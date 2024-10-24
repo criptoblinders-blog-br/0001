@@ -3469,7 +3469,7 @@ input, select, textarea {
 
 					#header > nav > ul > li a {
 						border: 0;
-						color: rgba(255, 255, 255, 0.35);
+						color: #ffffff;
 						display: inline-block;
 						font-size: 0.6em;
 						font-weight: bold;
@@ -3564,7 +3564,7 @@ input, select, textarea {
 		}
 
 	#footer > .inner a {
-		border-bottom-color: rgba(255, 255, 255, 0.15);
+		border-bottom-color: #ffffff;
 	}
 
 		#footer > .inner a:hover {
