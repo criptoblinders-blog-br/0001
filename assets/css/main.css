@@ -45,6 +45,9 @@ blockquote, q {
 		content: none;
 	}
 
+header a, footer a {
+    color: #ffffff; /* Branco sólido */
+}
 
 
 
